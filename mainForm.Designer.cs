@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.sidepnl = new System.Windows.Forms.Panel();
@@ -51,22 +50,22 @@
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.Aimbot = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.iconButton13 = new FontAwesome.Sharp.IconButton();
             this.CloseButton = new FontAwesome.Sharp.IconButton();
             this.minimizeButton = new FontAwesome.Sharp.IconButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.hhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hhToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.hhToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.hToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.contextMenuStrip1.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(15)))), ((int)(((byte)(14)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(15)))), ((int)(((byte)(24)))));
+            this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.sidepnl);
             this.panel1.Controls.Add(this.iconButton1);
@@ -91,7 +90,7 @@
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 689);
+            this.panel1.Size = new System.Drawing.Size(187, 702);
             this.panel1.TabIndex = 2;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
@@ -106,11 +105,12 @@
             // 
             // sidepnl
             // 
-            this.sidepnl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(15)))), ((int)(((byte)(14)))));
+            this.sidepnl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(15)))), ((int)(((byte)(24)))));
             this.sidepnl.Location = new System.Drawing.Point(0, 99);
             this.sidepnl.Name = "sidepnl";
             this.sidepnl.Size = new System.Drawing.Size(10, 46);
             this.sidepnl.TabIndex = 2;
+            this.sidepnl.Paint += new System.Windows.Forms.PaintEventHandler(this.sidepnl_Paint);
             // 
             // iconButton1
             // 
@@ -160,7 +160,7 @@
             this.iconButton12.Location = new System.Drawing.Point(3, 407);
             this.iconButton12.Name = "iconButton12";
             this.iconButton12.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton12.Size = new System.Drawing.Size(194, 45);
+            this.iconButton12.Size = new System.Drawing.Size(180, 45);
             this.iconButton12.TabIndex = 17;
             this.iconButton12.Text = "World";
             this.iconButton12.UseVisualStyleBackColor = true;
@@ -178,7 +178,7 @@
             this.iconButton11.Location = new System.Drawing.Point(3, 640);
             this.iconButton11.Name = "iconButton11";
             this.iconButton11.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton11.Size = new System.Drawing.Size(194, 45);
+            this.iconButton11.Size = new System.Drawing.Size(180, 45);
             this.iconButton11.TabIndex = 16;
             this.iconButton11.Text = "Config";
             this.iconButton11.UseVisualStyleBackColor = true;
@@ -196,7 +196,7 @@
             this.iconButton10.Location = new System.Drawing.Point(3, 595);
             this.iconButton10.Name = "iconButton10";
             this.iconButton10.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton10.Size = new System.Drawing.Size(194, 45);
+            this.iconButton10.Size = new System.Drawing.Size(180, 45);
             this.iconButton10.TabIndex = 15;
             this.iconButton10.Text = "Customize";
             this.iconButton10.UseVisualStyleBackColor = true;
@@ -214,7 +214,7 @@
             this.iconButton9.Location = new System.Drawing.Point(3, 528);
             this.iconButton9.Name = "iconButton9";
             this.iconButton9.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton9.Size = new System.Drawing.Size(194, 45);
+            this.iconButton9.Size = new System.Drawing.Size(180, 45);
             this.iconButton9.TabIndex = 14;
             this.iconButton9.Text = "Exploit";
             this.iconButton9.UseVisualStyleBackColor = true;
@@ -232,7 +232,7 @@
             this.iconButton8.Location = new System.Drawing.Point(3, 477);
             this.iconButton8.Name = "iconButton8";
             this.iconButton8.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton8.Size = new System.Drawing.Size(194, 45);
+            this.iconButton8.Size = new System.Drawing.Size(180, 45);
             this.iconButton8.TabIndex = 13;
             this.iconButton8.Text = "Skin";
             this.iconButton8.UseVisualStyleBackColor = true;
@@ -270,7 +270,7 @@
             this.iconButton7.Location = new System.Drawing.Point(3, 356);
             this.iconButton7.Name = "iconButton7";
             this.iconButton7.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton7.Size = new System.Drawing.Size(194, 45);
+            this.iconButton7.Size = new System.Drawing.Size(180, 45);
             this.iconButton7.TabIndex = 10;
             this.iconButton7.Text = "Mobs";
             this.iconButton7.UseVisualStyleBackColor = true;
@@ -288,7 +288,7 @@
             this.iconButton6.Location = new System.Drawing.Point(3, 305);
             this.iconButton6.Name = "iconButton6";
             this.iconButton6.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton6.Size = new System.Drawing.Size(194, 45);
+            this.iconButton6.Size = new System.Drawing.Size(180, 45);
             this.iconButton6.TabIndex = 9;
             this.iconButton6.Text = "Ships";
             this.iconButton6.UseVisualStyleBackColor = true;
@@ -306,7 +306,7 @@
             this.iconButton5.Location = new System.Drawing.Point(3, 254);
             this.iconButton5.Name = "iconButton5";
             this.iconButton5.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton5.Size = new System.Drawing.Size(194, 45);
+            this.iconButton5.Size = new System.Drawing.Size(180, 45);
             this.iconButton5.TabIndex = 8;
             this.iconButton5.Text = "Players";
             this.iconButton5.UseVisualStyleBackColor = true;
@@ -334,7 +334,7 @@
             this.iconButton4.Location = new System.Drawing.Point(3, 187);
             this.iconButton4.Name = "iconButton4";
             this.iconButton4.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton4.Size = new System.Drawing.Size(194, 45);
+            this.iconButton4.Size = new System.Drawing.Size(180, 45);
             this.iconButton4.TabIndex = 5;
             this.iconButton4.Text = "Harpoon";
             this.iconButton4.UseVisualStyleBackColor = true;
@@ -353,7 +353,7 @@
             this.iconButton3.Location = new System.Drawing.Point(3, 145);
             this.iconButton3.Name = "iconButton3";
             this.iconButton3.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton3.Size = new System.Drawing.Size(194, 45);
+            this.iconButton3.Size = new System.Drawing.Size(180, 45);
             this.iconButton3.TabIndex = 4;
             this.iconButton3.Text = "Canons";
             this.iconButton3.UseVisualStyleBackColor = true;
@@ -372,7 +372,7 @@
             this.iconButton2.Location = new System.Drawing.Point(3, 99);
             this.iconButton2.Name = "iconButton2";
             this.iconButton2.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton2.Size = new System.Drawing.Size(194, 45);
+            this.iconButton2.Size = new System.Drawing.Size(180, 45);
             this.iconButton2.TabIndex = 2;
             this.iconButton2.Text = "Weapons";
             this.iconButton2.UseVisualStyleBackColor = true;
@@ -390,18 +390,35 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(15)))), ((int)(((byte)(14)))));
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(15)))), ((int)(((byte)(24)))));
+            this.panel4.Controls.Add(this.iconButton13);
             this.panel4.Controls.Add(this.CloseButton);
             this.panel4.Controls.Add(this.minimizeButton);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel4.Location = new System.Drawing.Point(200, 0);
+            this.panel4.Location = new System.Drawing.Point(187, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(726, 41);
+            this.panel4.Size = new System.Drawing.Size(833, 44);
             this.panel4.TabIndex = 6;
             this.panel4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel4_MouseDown);
             this.panel4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel4_MouseMove);
             this.panel4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel4_MouseUp);
+            // 
+            // iconButton13
+            // 
+            this.iconButton13.FlatAppearance.BorderSize = 0;
+            this.iconButton13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton13.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.iconButton13.IconChar = FontAwesome.Sharp.IconChar.Carrot;
+            this.iconButton13.IconColor = System.Drawing.Color.DeepSkyBlue;
+            this.iconButton13.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton13.IconSize = 20;
+            this.iconButton13.Location = new System.Drawing.Point(751, 9);
+            this.iconButton13.Name = "iconButton13";
+            this.iconButton13.Size = new System.Drawing.Size(29, 23);
+            this.iconButton13.TabIndex = 4;
+            this.iconButton13.UseVisualStyleBackColor = true;
+            this.iconButton13.Click += new System.EventHandler(this.iconButton13_Click);
             // 
             // CloseButton
             // 
@@ -412,7 +429,7 @@
             this.CloseButton.IconColor = System.Drawing.Color.DeepSkyBlue;
             this.CloseButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.CloseButton.IconSize = 20;
-            this.CloseButton.Location = new System.Drawing.Point(693, 10);
+            this.CloseButton.Location = new System.Drawing.Point(800, 9);
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(29, 23);
             this.CloseButton.TabIndex = 2;
@@ -428,7 +445,7 @@
             this.minimizeButton.IconColor = System.Drawing.Color.DeepSkyBlue;
             this.minimizeButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.minimizeButton.IconSize = 20;
-            this.minimizeButton.Location = new System.Drawing.Point(664, 10);
+            this.minimizeButton.Location = new System.Drawing.Point(775, 9);
             this.minimizeButton.Name = "minimizeButton";
             this.minimizeButton.Size = new System.Drawing.Size(29, 23);
             this.minimizeButton.TabIndex = 3;
@@ -437,59 +454,47 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(15)))), ((int)(((byte)(14)))));
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(200, 42);
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(15)))), ((int)(((byte)(24)))));
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(187, 44);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(726, 647);
+            this.panel2.Size = new System.Drawing.Size(833, 658);
             this.panel2.TabIndex = 7;
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
             this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             this.panel2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseUp);
             // 
-            // contextMenuStrip1
+            // panel5
             // 
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.hhToolStripMenuItem});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 48);
+            this.panel5.Controls.Add(this.flowLayoutPanel1);
+            this.panel5.Location = new System.Drawing.Point(184, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(10, 703);
+            this.panel5.TabIndex = 8;
             // 
-            // hhToolStripMenuItem
+            // flowLayoutPanel1
             // 
-            this.hhToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.hhToolStripMenuItem1});
-            this.hhToolStripMenuItem.Name = "hhToolStripMenuItem";
-            this.hhToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.hhToolStripMenuItem.Text = "hh";
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.LimeGreen;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 47);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(10, 652);
+            this.flowLayoutPanel1.TabIndex = 8;
             // 
-            // hhToolStripMenuItem1
+            // flowLayoutPanel2
             // 
-            this.hhToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.hhToolStripMenuItem2});
-            this.hhToolStripMenuItem1.Name = "hhToolStripMenuItem1";
-            this.hhToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.hhToolStripMenuItem1.Text = "hh";
-            // 
-            // hhToolStripMenuItem2
-            // 
-            this.hhToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.hToolStripMenuItem});
-            this.hhToolStripMenuItem2.Name = "hhToolStripMenuItem2";
-            this.hhToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.hhToolStripMenuItem2.Text = "hh";
-            // 
-            // hToolStripMenuItem
-            // 
-            this.hToolStripMenuItem.Name = "hToolStripMenuItem";
-            this.hToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.hToolStripMenuItem.Text = "h";
+            this.flowLayoutPanel2.BackColor = System.Drawing.Color.LimeGreen;
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(186, 47);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(834, 4);
+            this.flowLayoutPanel2.TabIndex = 9;
             // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.ClientSize = new System.Drawing.Size(926, 689);
+            this.ClientSize = new System.Drawing.Size(1020, 702);
+            this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
@@ -500,7 +505,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel4.ResumeLayout(false);
-            this.contextMenuStrip1.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -532,11 +537,10 @@
         private FontAwesome.Sharp.IconButton CloseButton;
         private FontAwesome.Sharp.IconButton minimizeButton;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem hhToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hhToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem hhToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem hToolStripMenuItem;
+        private FontAwesome.Sharp.IconButton iconButton13;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
     }
 }
 

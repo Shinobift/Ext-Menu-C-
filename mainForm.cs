@@ -1,4 +1,5 @@
-﻿using System;
+﻿using External_Menu.Gui;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 using System.Windows.Forms;
 
 
@@ -50,18 +52,23 @@ namespace External_Menu
         }
 
         //button click
-
+       
         private void iconButton2_Click(object sender, EventArgs e)
         {
             sidepnl.BackColor = Color.DeepSkyBlue;
             sidepnl.Height = iconButton2.Height;
             sidepnl.Top = iconButton2.Top;
-            openChildForm(new Gui.Form1());
+          
+            openChildForm(new Gui.Form11());
+           
         }
 
         private void iconButton3_Click(object sender, EventArgs e)
         {
-
+            
+            sidepnl.Height = iconButton3.Height;
+            sidepnl.Top = iconButton3.Top;
+            openChildForm(new Gui.Form2());
         }
 
         private void iconButton4_Click(object sender, EventArgs e)
@@ -82,6 +89,17 @@ namespace External_Menu
             this.Close();
         }
 
+
+
+        //Back button
+
+        private System.Windows.Controls.Button previousSelectedButton;
+        private void iconButton13_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+      
 
 
         //left pnl movement
@@ -151,5 +169,15 @@ namespace External_Menu
         {
             mouseDown = false;
         }
+
+
+
+        //sidepanel events
+        private void sidepnl_Paint(object sender, PaintEventArgs e)
+        {
+            sidepnl.SendToBack();
+        }
+
+       
     }
 }

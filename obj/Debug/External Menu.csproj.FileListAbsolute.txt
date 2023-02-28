@@ -1,0 +1,30 @@
+E:\Cpp Code\WORKING\External Menu\bin\Debug\External Menu.exe.config
+E:\Cpp Code\WORKING\External Menu\bin\Debug\External Menu.exe
+E:\Cpp Code\WORKING\External Menu\bin\Debug\External Menu.pdb
+E:\Cpp Code\WORKING\External Menu\obj\Debug\External Menu.csproj.AssemblyReference.cache
+E:\Cpp Code\WORKING\External Menu\obj\Debug\External Menu.csproj.SuggestedBindingRedirects.cache
+E:\Cpp Code\WORKING\External Menu\obj\Debug\External_Menu.mainForm.resources
+E:\Cpp Code\WORKING\External Menu\obj\Debug\External_Menu.Properties.Resources.resources
+E:\Cpp Code\WORKING\External Menu\obj\Debug\External Menu.csproj.GenerateResource.cache
+E:\Cpp Code\WORKING\External Menu\obj\Debug\External Menu.csproj.CoreCompileInputs.cache
+E:\Cpp Code\WORKING\External Menu\obj\Debug\External Menu.exe
+E:\Cpp Code\WORKING\External Menu\obj\Debug\External Menu.pdb
+E:\Cpp Code\WORKING\External Menu\bin\Debug\FontAwesome.Sharp.dll
+E:\Cpp Code\WORKING\External Menu\obj\Debug\External Menu.csproj.CopyComplete
+E:\Cpp Code\WORKING\External Menu\bin\Debug\Microsoft.Win32.SystemEvents.dll
+E:\Cpp Code\WORKING\External Menu\bin\Debug\Microsoft.Win32.SystemEvents.xml
+E:\Cpp Code\Op code\External Menu copy\bin\Debug\External Menu.exe.config
+E:\Cpp Code\Op code\External Menu copy\bin\Debug\External Menu.exe
+E:\Cpp Code\Op code\External Menu copy\bin\Debug\External Menu.pdb
+E:\Cpp Code\Op code\External Menu copy\bin\Debug\FontAwesome.Sharp.dll
+E:\Cpp Code\Op code\External Menu copy\bin\Debug\Microsoft.Win32.SystemEvents.dll
+E:\Cpp Code\Op code\External Menu copy\bin\Debug\Microsoft.Win32.SystemEvents.xml
+E:\Cpp Code\Op code\External Menu copy\obj\Debug\External Menu.csproj.AssemblyReference.cache
+E:\Cpp Code\Op code\External Menu copy\obj\Debug\External Menu.csproj.SuggestedBindingRedirects.cache
+E:\Cpp Code\Op code\External Menu copy\obj\Debug\External_Menu.mainForm.resources
+E:\Cpp Code\Op code\External Menu copy\obj\Debug\External_Menu.Properties.Resources.resources
+E:\Cpp Code\Op code\External Menu copy\obj\Debug\External Menu.csproj.GenerateResource.cache
+E:\Cpp Code\Op code\External Menu copy\obj\Debug\External Menu.csproj.CoreCompileInputs.cache
+E:\Cpp Code\Op code\External Menu copy\obj\Debug\External Menu.csproj.CopyComplete
+E:\Cpp Code\Op code\External Menu copy\obj\Debug\External Menu.exe
+E:\Cpp Code\Op code\External Menu copy\obj\Debug\External Menu.pdb
