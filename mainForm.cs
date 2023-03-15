@@ -53,30 +53,85 @@ namespace External_Menu
 
         //button click
        
-        private void iconButton2_Click(object sender, EventArgs e)
+        private void weaponsButton2_Click(object sender, EventArgs e)
         {
             sidepnl.BackColor = Color.DeepSkyBlue;
-            sidepnl.Height = iconButton2.Height;
-            sidepnl.Top = iconButton2.Top;
+            sidepnl.Height = weaponsButton2.Height;
+            sidepnl.Top = weaponsButton2.Top;
           
             openChildForm(new Gui.Form11());
            
         }
 
-        private void iconButton3_Click(object sender, EventArgs e)
+        private void canonButton3_Click(object sender, EventArgs e)
         {
             
-            sidepnl.Height = iconButton3.Height;
-            sidepnl.Top = iconButton3.Top;
-            openChildForm(new Gui.Form2());
+            sidepnl.Height = canonButton3.Height;
+            sidepnl.Top = canonButton3.Top;
+            openChildForm(new Gui.Canon());
         }
 
-        private void iconButton4_Click(object sender, EventArgs e)
+        private void harpoonButton4_Click(object sender, EventArgs e)
         {
-
+            sidepnl.Height = harpoonButton4.Height;
+            sidepnl.Top = harpoonButton4.Top;
+            openChildForm(new Gui.Harpoon());
         }
 
+        private void PlayersButton5_Click(object sender, EventArgs e)
+        {
+            sidepnl.Height = PlayersButton5.Height;
+            sidepnl.Top = PlayersButton5.Top;
+            openChildForm(new Gui.Visuals.Players());
+        }
+        private void shipsButton6_Click(object sender, EventArgs e)
+        {
+            sidepnl.Height= shipsButton6.Height;
+            sidepnl.Top = shipsButton6.Top;
+            openChildForm(new Gui.Visuals.Ships());
+        }
 
+        private void mobsButton7_Click(object sender, EventArgs e)
+        {
+            sidepnl.Height = mobsButton7.Height;
+            sidepnl.Top = mobsButton7.Top;
+            openChildForm(new Gui.Visuals.Mobs());
+        }
+
+        private void worldButton12_Click(object sender, EventArgs e)
+        {
+            sidepnl.Height = worldButton12.Height;
+            sidepnl.Top = worldButton12.Top;
+            openChildForm(new Gui.Visuals.World());
+        }
+
+        private void skinButton8_Click(object sender, EventArgs e)
+        {
+            sidepnl.Height = skinButton8.Height;
+            sidepnl.Top = skinButton8.Top;
+            openChildForm(new Gui.Misc.Skin());
+        }
+
+        private void exploitButton9_Click(object sender, EventArgs e)
+        {
+            sidepnl.Height = exploitButton9.Height;
+            sidepnl.Top = exploitButton9.Top;
+            openChildForm(new Gui.Misc.Exploit());
+        }
+
+        private void customButton10_Click(object sender, EventArgs e)
+        {
+            sidepnl.Height = customButton10.Height;
+            sidepnl.Top = customButton10.Top;
+            openChildForm(new Gui.Settings.Customize());
+        }
+
+        private void configButton11_Click(object sender, EventArgs e)
+        {
+            sidepnl.Height = configButton11.Height;
+            sidepnl.Top = configButton11.Top;
+            openChildForm(new Gui.Settings.Config());
+        }
         //close and minimized button for panel4
 
         private void minimizeButton_Click(object sender, EventArgs e)

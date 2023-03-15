@@ -97,17 +97,71 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Gui\Form1.cs">
+    <Compile Include="Gui\Aimbot\Harpoon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gui\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Gui\Aimbot\Harpoon.Designer.cs">
+      <DependentUpon>Harpoon.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gui\Form2.cs">
+    <Compile Include="Gui\Aimbot\Weapons.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gui\Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Gui\Aimbot\Weapons.Designer.cs">
+      <DependentUpon>Weapons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Aimbot\Canon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Aimbot\Canon.Designer.cs">
+      <DependentUpon>Canon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Misc\Skin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Misc\Skin.Designer.cs">
+      <DependentUpon>Skin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Misc\Exploit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Misc\Exploit.Designer.cs">
+      <DependentUpon>Exploit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Settings\Customize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Settings\Customize.Designer.cs">
+      <DependentUpon>Customize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Settings\Config.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Settings\Config.Designer.cs">
+      <DependentUpon>Config.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Visuals\Players.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Visuals\Players.Designer.cs">
+      <DependentUpon>Players.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Visuals\Ships.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Visuals\Ships.Designer.cs">
+      <DependentUpon>Ships.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Visuals\Mobs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Visuals\Mobs.Designer.cs">
+      <DependentUpon>Mobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Visuals\World.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Visuals\World.Designer.cs">
+      <DependentUpon>World.cs</DependentUpon>
     </Compile>
     <Compile Include="mainForm.cs">
       <SubType>Form</SubType>
@@ -117,11 +171,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Gui\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Gui\Aimbot\Harpoon.resx">
+      <DependentUpon>Harpoon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gui\Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="Gui\Aimbot\Weapons.resx">
+      <DependentUpon>Weapons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Aimbot\Canon.resx">
+      <DependentUpon>Canon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Visuals\Players.resx">
+      <DependentUpon>Players.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mainForm.resx">
       <DependentUpon>mainForm.cs</DependentUpon>

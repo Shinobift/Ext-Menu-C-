@@ -29,37 +29,36 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.sidepnl = new System.Windows.Forms.Panel();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.iconButton12 = new FontAwesome.Sharp.IconButton();
-            this.iconButton11 = new FontAwesome.Sharp.IconButton();
-            this.iconButton10 = new FontAwesome.Sharp.IconButton();
-            this.iconButton9 = new FontAwesome.Sharp.IconButton();
-            this.iconButton8 = new FontAwesome.Sharp.IconButton();
+            this.worldButton12 = new FontAwesome.Sharp.IconButton();
+            this.configButton11 = new FontAwesome.Sharp.IconButton();
+            this.customButton10 = new FontAwesome.Sharp.IconButton();
+            this.exploitButton9 = new FontAwesome.Sharp.IconButton();
+            this.skinButton8 = new FontAwesome.Sharp.IconButton();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.iconButton7 = new FontAwesome.Sharp.IconButton();
-            this.iconButton6 = new FontAwesome.Sharp.IconButton();
-            this.iconButton5 = new FontAwesome.Sharp.IconButton();
+            this.mobsButton7 = new FontAwesome.Sharp.IconButton();
+            this.shipsButton6 = new FontAwesome.Sharp.IconButton();
+            this.PlayersButton5 = new FontAwesome.Sharp.IconButton();
             this.Visuals = new System.Windows.Forms.Label();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
+            this.harpoonButton4 = new FontAwesome.Sharp.IconButton();
+            this.canonButton3 = new FontAwesome.Sharp.IconButton();
+            this.weaponsButton2 = new FontAwesome.Sharp.IconButton();
             this.Aimbot = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.iconButton13 = new FontAwesome.Sharp.IconButton();
             this.CloseButton = new FontAwesome.Sharp.IconButton();
             this.minimizeButton = new FontAwesome.Sharp.IconButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -71,20 +70,20 @@
             this.panel1.Controls.Add(this.iconButton1);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.iconButton12);
-            this.panel1.Controls.Add(this.iconButton11);
-            this.panel1.Controls.Add(this.iconButton10);
-            this.panel1.Controls.Add(this.iconButton9);
-            this.panel1.Controls.Add(this.iconButton8);
+            this.panel1.Controls.Add(this.worldButton12);
+            this.panel1.Controls.Add(this.configButton11);
+            this.panel1.Controls.Add(this.customButton10);
+            this.panel1.Controls.Add(this.exploitButton9);
+            this.panel1.Controls.Add(this.skinButton8);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.iconButton7);
-            this.panel1.Controls.Add(this.iconButton6);
-            this.panel1.Controls.Add(this.iconButton5);
+            this.panel1.Controls.Add(this.mobsButton7);
+            this.panel1.Controls.Add(this.shipsButton6);
+            this.panel1.Controls.Add(this.PlayersButton5);
             this.panel1.Controls.Add(this.Visuals);
-            this.panel1.Controls.Add(this.iconButton4);
-            this.panel1.Controls.Add(this.iconButton3);
-            this.panel1.Controls.Add(this.iconButton2);
+            this.panel1.Controls.Add(this.harpoonButton4);
+            this.panel1.Controls.Add(this.canonButton3);
+            this.panel1.Controls.Add(this.weaponsButton2);
             this.panel1.Controls.Add(this.Aimbot);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -95,6 +94,22 @@
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             this.panel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.flowLayoutPanel1);
+            this.panel5.Location = new System.Drawing.Point(184, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(10, 703);
+            this.panel5.TabIndex = 8;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.LimeGreen;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 47);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(10, 652);
+            this.flowLayoutPanel1.TabIndex = 8;
             // 
             // panel3
             // 
@@ -147,95 +162,100 @@
             this.label3.Size = new System.Drawing.Size(0, 18);
             this.label3.TabIndex = 18;
             // 
-            // iconButton12
+            // worldButton12
             // 
-            this.iconButton12.FlatAppearance.BorderSize = 0;
-            this.iconButton12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton12.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton12.IconChar = FontAwesome.Sharp.IconChar.EarthAmericas;
-            this.iconButton12.IconColor = System.Drawing.Color.DeepSkyBlue;
-            this.iconButton12.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton12.IconSize = 32;
-            this.iconButton12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton12.Location = new System.Drawing.Point(3, 407);
-            this.iconButton12.Name = "iconButton12";
-            this.iconButton12.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton12.Size = new System.Drawing.Size(180, 45);
-            this.iconButton12.TabIndex = 17;
-            this.iconButton12.Text = "World";
-            this.iconButton12.UseVisualStyleBackColor = true;
+            this.worldButton12.FlatAppearance.BorderSize = 0;
+            this.worldButton12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.worldButton12.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.worldButton12.IconChar = FontAwesome.Sharp.IconChar.EarthAmericas;
+            this.worldButton12.IconColor = System.Drawing.Color.DeepSkyBlue;
+            this.worldButton12.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.worldButton12.IconSize = 32;
+            this.worldButton12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.worldButton12.Location = new System.Drawing.Point(3, 407);
+            this.worldButton12.Name = "worldButton12";
+            this.worldButton12.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.worldButton12.Size = new System.Drawing.Size(180, 45);
+            this.worldButton12.TabIndex = 17;
+            this.worldButton12.Text = "World";
+            this.worldButton12.UseVisualStyleBackColor = true;
+            this.worldButton12.Click += new System.EventHandler(this.worldButton12_Click);
             // 
-            // iconButton11
+            // configButton11
             // 
-            this.iconButton11.FlatAppearance.BorderSize = 0;
-            this.iconButton11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton11.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton11.IconChar = FontAwesome.Sharp.IconChar.SlidersH;
-            this.iconButton11.IconColor = System.Drawing.Color.DeepSkyBlue;
-            this.iconButton11.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton11.IconSize = 32;
-            this.iconButton11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton11.Location = new System.Drawing.Point(3, 640);
-            this.iconButton11.Name = "iconButton11";
-            this.iconButton11.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton11.Size = new System.Drawing.Size(180, 45);
-            this.iconButton11.TabIndex = 16;
-            this.iconButton11.Text = "Config";
-            this.iconButton11.UseVisualStyleBackColor = true;
+            this.configButton11.FlatAppearance.BorderSize = 0;
+            this.configButton11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.configButton11.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.configButton11.IconChar = FontAwesome.Sharp.IconChar.SlidersH;
+            this.configButton11.IconColor = System.Drawing.Color.DeepSkyBlue;
+            this.configButton11.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.configButton11.IconSize = 32;
+            this.configButton11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.configButton11.Location = new System.Drawing.Point(3, 640);
+            this.configButton11.Name = "configButton11";
+            this.configButton11.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.configButton11.Size = new System.Drawing.Size(180, 45);
+            this.configButton11.TabIndex = 16;
+            this.configButton11.Text = "Config";
+            this.configButton11.UseVisualStyleBackColor = true;
+            this.configButton11.Click += new System.EventHandler(this.configButton11_Click);
             // 
-            // iconButton10
+            // customButton10
             // 
-            this.iconButton10.FlatAppearance.BorderSize = 0;
-            this.iconButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton10.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton10.IconChar = FontAwesome.Sharp.IconChar.Palette;
-            this.iconButton10.IconColor = System.Drawing.Color.DeepSkyBlue;
-            this.iconButton10.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton10.IconSize = 32;
-            this.iconButton10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton10.Location = new System.Drawing.Point(3, 595);
-            this.iconButton10.Name = "iconButton10";
-            this.iconButton10.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton10.Size = new System.Drawing.Size(180, 45);
-            this.iconButton10.TabIndex = 15;
-            this.iconButton10.Text = "Customize";
-            this.iconButton10.UseVisualStyleBackColor = true;
+            this.customButton10.FlatAppearance.BorderSize = 0;
+            this.customButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.customButton10.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customButton10.IconChar = FontAwesome.Sharp.IconChar.Palette;
+            this.customButton10.IconColor = System.Drawing.Color.DeepSkyBlue;
+            this.customButton10.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.customButton10.IconSize = 32;
+            this.customButton10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.customButton10.Location = new System.Drawing.Point(3, 595);
+            this.customButton10.Name = "customButton10";
+            this.customButton10.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.customButton10.Size = new System.Drawing.Size(180, 45);
+            this.customButton10.TabIndex = 15;
+            this.customButton10.Text = "Customize";
+            this.customButton10.UseVisualStyleBackColor = true;
+            this.customButton10.Click += new System.EventHandler(this.customButton10_Click);
             // 
-            // iconButton9
+            // exploitButton9
             // 
-            this.iconButton9.FlatAppearance.BorderSize = 0;
-            this.iconButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton9.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton9.IconChar = FontAwesome.Sharp.IconChar.Earlybirds;
-            this.iconButton9.IconColor = System.Drawing.Color.DeepSkyBlue;
-            this.iconButton9.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton9.IconSize = 32;
-            this.iconButton9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton9.Location = new System.Drawing.Point(3, 528);
-            this.iconButton9.Name = "iconButton9";
-            this.iconButton9.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton9.Size = new System.Drawing.Size(180, 45);
-            this.iconButton9.TabIndex = 14;
-            this.iconButton9.Text = "Exploit";
-            this.iconButton9.UseVisualStyleBackColor = true;
+            this.exploitButton9.FlatAppearance.BorderSize = 0;
+            this.exploitButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.exploitButton9.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exploitButton9.IconChar = FontAwesome.Sharp.IconChar.Earlybirds;
+            this.exploitButton9.IconColor = System.Drawing.Color.DeepSkyBlue;
+            this.exploitButton9.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.exploitButton9.IconSize = 32;
+            this.exploitButton9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.exploitButton9.Location = new System.Drawing.Point(3, 528);
+            this.exploitButton9.Name = "exploitButton9";
+            this.exploitButton9.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.exploitButton9.Size = new System.Drawing.Size(180, 45);
+            this.exploitButton9.TabIndex = 14;
+            this.exploitButton9.Text = "Exploit";
+            this.exploitButton9.UseVisualStyleBackColor = true;
+            this.exploitButton9.Click += new System.EventHandler(this.exploitButton9_Click);
             // 
-            // iconButton8
+            // skinButton8
             // 
-            this.iconButton8.FlatAppearance.BorderSize = 0;
-            this.iconButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton8.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton8.IconChar = FontAwesome.Sharp.IconChar.Snowboarding;
-            this.iconButton8.IconColor = System.Drawing.Color.DeepSkyBlue;
-            this.iconButton8.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton8.IconSize = 32;
-            this.iconButton8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton8.Location = new System.Drawing.Point(3, 477);
-            this.iconButton8.Name = "iconButton8";
-            this.iconButton8.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton8.Size = new System.Drawing.Size(180, 45);
-            this.iconButton8.TabIndex = 13;
-            this.iconButton8.Text = "Skin";
-            this.iconButton8.UseVisualStyleBackColor = true;
+            this.skinButton8.FlatAppearance.BorderSize = 0;
+            this.skinButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.skinButton8.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.skinButton8.IconChar = FontAwesome.Sharp.IconChar.Snowboarding;
+            this.skinButton8.IconColor = System.Drawing.Color.DeepSkyBlue;
+            this.skinButton8.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.skinButton8.IconSize = 32;
+            this.skinButton8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.skinButton8.Location = new System.Drawing.Point(3, 477);
+            this.skinButton8.Name = "skinButton8";
+            this.skinButton8.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.skinButton8.Size = new System.Drawing.Size(180, 45);
+            this.skinButton8.TabIndex = 13;
+            this.skinButton8.Text = "Skin";
+            this.skinButton8.UseVisualStyleBackColor = true;
+            this.skinButton8.Click += new System.EventHandler(this.skinButton8_Click);
             // 
             // label2
             // 
@@ -257,59 +277,62 @@
             this.label1.TabIndex = 11;
             this.label1.Text = "Misc";
             // 
-            // iconButton7
+            // mobsButton7
             // 
-            this.iconButton7.FlatAppearance.BorderSize = 0;
-            this.iconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton7.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton7.IconChar = FontAwesome.Sharp.IconChar.Skull;
-            this.iconButton7.IconColor = System.Drawing.Color.DeepSkyBlue;
-            this.iconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton7.IconSize = 32;
-            this.iconButton7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton7.Location = new System.Drawing.Point(3, 356);
-            this.iconButton7.Name = "iconButton7";
-            this.iconButton7.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton7.Size = new System.Drawing.Size(180, 45);
-            this.iconButton7.TabIndex = 10;
-            this.iconButton7.Text = "Mobs";
-            this.iconButton7.UseVisualStyleBackColor = true;
+            this.mobsButton7.FlatAppearance.BorderSize = 0;
+            this.mobsButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mobsButton7.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mobsButton7.IconChar = FontAwesome.Sharp.IconChar.Skull;
+            this.mobsButton7.IconColor = System.Drawing.Color.DeepSkyBlue;
+            this.mobsButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.mobsButton7.IconSize = 32;
+            this.mobsButton7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.mobsButton7.Location = new System.Drawing.Point(3, 356);
+            this.mobsButton7.Name = "mobsButton7";
+            this.mobsButton7.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.mobsButton7.Size = new System.Drawing.Size(180, 45);
+            this.mobsButton7.TabIndex = 10;
+            this.mobsButton7.Text = "Mobs";
+            this.mobsButton7.UseVisualStyleBackColor = true;
+            this.mobsButton7.Click += new System.EventHandler(this.mobsButton7_Click);
             // 
-            // iconButton6
+            // shipsButton6
             // 
-            this.iconButton6.FlatAppearance.BorderSize = 0;
-            this.iconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton6.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.Sailboat;
-            this.iconButton6.IconColor = System.Drawing.Color.DeepSkyBlue;
-            this.iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton6.IconSize = 32;
-            this.iconButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton6.Location = new System.Drawing.Point(3, 305);
-            this.iconButton6.Name = "iconButton6";
-            this.iconButton6.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton6.Size = new System.Drawing.Size(180, 45);
-            this.iconButton6.TabIndex = 9;
-            this.iconButton6.Text = "Ships";
-            this.iconButton6.UseVisualStyleBackColor = true;
+            this.shipsButton6.FlatAppearance.BorderSize = 0;
+            this.shipsButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.shipsButton6.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.shipsButton6.IconChar = FontAwesome.Sharp.IconChar.Sailboat;
+            this.shipsButton6.IconColor = System.Drawing.Color.DeepSkyBlue;
+            this.shipsButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.shipsButton6.IconSize = 32;
+            this.shipsButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.shipsButton6.Location = new System.Drawing.Point(3, 305);
+            this.shipsButton6.Name = "shipsButton6";
+            this.shipsButton6.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.shipsButton6.Size = new System.Drawing.Size(180, 45);
+            this.shipsButton6.TabIndex = 9;
+            this.shipsButton6.Text = "Ships";
+            this.shipsButton6.UseVisualStyleBackColor = true;
+            this.shipsButton6.Click += new System.EventHandler(this.shipsButton6_Click);
             // 
-            // iconButton5
+            // PlayersButton5
             // 
-            this.iconButton5.FlatAppearance.BorderSize = 0;
-            this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton5.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.UserSecret;
-            this.iconButton5.IconColor = System.Drawing.Color.DeepSkyBlue;
-            this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton5.IconSize = 32;
-            this.iconButton5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton5.Location = new System.Drawing.Point(3, 254);
-            this.iconButton5.Name = "iconButton5";
-            this.iconButton5.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton5.Size = new System.Drawing.Size(180, 45);
-            this.iconButton5.TabIndex = 8;
-            this.iconButton5.Text = "Players";
-            this.iconButton5.UseVisualStyleBackColor = true;
+            this.PlayersButton5.FlatAppearance.BorderSize = 0;
+            this.PlayersButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PlayersButton5.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PlayersButton5.IconChar = FontAwesome.Sharp.IconChar.UserSecret;
+            this.PlayersButton5.IconColor = System.Drawing.Color.DeepSkyBlue;
+            this.PlayersButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.PlayersButton5.IconSize = 32;
+            this.PlayersButton5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.PlayersButton5.Location = new System.Drawing.Point(3, 254);
+            this.PlayersButton5.Name = "PlayersButton5";
+            this.PlayersButton5.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.PlayersButton5.Size = new System.Drawing.Size(180, 45);
+            this.PlayersButton5.TabIndex = 8;
+            this.PlayersButton5.Text = "Players";
+            this.PlayersButton5.UseVisualStyleBackColor = true;
+            this.PlayersButton5.Click += new System.EventHandler(this.PlayersButton5_Click);
             // 
             // Visuals
             // 
@@ -321,62 +344,62 @@
             this.Visuals.TabIndex = 7;
             this.Visuals.Text = "Visuals";
             // 
-            // iconButton4
+            // harpoonButton4
             // 
-            this.iconButton4.FlatAppearance.BorderSize = 0;
-            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton4.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.ArrowsDownToLine;
-            this.iconButton4.IconColor = System.Drawing.Color.DeepSkyBlue;
-            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton4.IconSize = 32;
-            this.iconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton4.Location = new System.Drawing.Point(3, 187);
-            this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton4.Size = new System.Drawing.Size(180, 45);
-            this.iconButton4.TabIndex = 5;
-            this.iconButton4.Text = "Harpoon";
-            this.iconButton4.UseVisualStyleBackColor = true;
-            this.iconButton4.Click += new System.EventHandler(this.iconButton4_Click);
+            this.harpoonButton4.FlatAppearance.BorderSize = 0;
+            this.harpoonButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.harpoonButton4.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.harpoonButton4.IconChar = FontAwesome.Sharp.IconChar.ArrowsDownToLine;
+            this.harpoonButton4.IconColor = System.Drawing.Color.DeepSkyBlue;
+            this.harpoonButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.harpoonButton4.IconSize = 32;
+            this.harpoonButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.harpoonButton4.Location = new System.Drawing.Point(3, 187);
+            this.harpoonButton4.Name = "harpoonButton4";
+            this.harpoonButton4.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.harpoonButton4.Size = new System.Drawing.Size(180, 45);
+            this.harpoonButton4.TabIndex = 5;
+            this.harpoonButton4.Text = "Harpoon";
+            this.harpoonButton4.UseVisualStyleBackColor = true;
+            this.harpoonButton4.Click += new System.EventHandler(this.harpoonButton4_Click);
             // 
-            // iconButton3
+            // canonButton3
             // 
-            this.iconButton3.FlatAppearance.BorderSize = 0;
-            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton3.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Bomb;
-            this.iconButton3.IconColor = System.Drawing.Color.DeepSkyBlue;
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.IconSize = 32;
-            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.Location = new System.Drawing.Point(3, 145);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton3.Size = new System.Drawing.Size(180, 45);
-            this.iconButton3.TabIndex = 4;
-            this.iconButton3.Text = "Canons";
-            this.iconButton3.UseVisualStyleBackColor = true;
-            this.iconButton3.Click += new System.EventHandler(this.iconButton3_Click);
+            this.canonButton3.FlatAppearance.BorderSize = 0;
+            this.canonButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.canonButton3.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.canonButton3.IconChar = FontAwesome.Sharp.IconChar.Bomb;
+            this.canonButton3.IconColor = System.Drawing.Color.DeepSkyBlue;
+            this.canonButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.canonButton3.IconSize = 32;
+            this.canonButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.canonButton3.Location = new System.Drawing.Point(3, 145);
+            this.canonButton3.Name = "canonButton3";
+            this.canonButton3.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.canonButton3.Size = new System.Drawing.Size(180, 45);
+            this.canonButton3.TabIndex = 4;
+            this.canonButton3.Text = "Canons";
+            this.canonButton3.UseVisualStyleBackColor = true;
+            this.canonButton3.Click += new System.EventHandler(this.canonButton3_Click);
             // 
-            // iconButton2
+            // weaponsButton2
             // 
-            this.iconButton2.FlatAppearance.BorderSize = 0;
-            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton2.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.Gun;
-            this.iconButton2.IconColor = System.Drawing.Color.DeepSkyBlue;
-            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton2.IconSize = 32;
-            this.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton2.Location = new System.Drawing.Point(3, 99);
-            this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton2.Size = new System.Drawing.Size(180, 45);
-            this.iconButton2.TabIndex = 2;
-            this.iconButton2.Text = "Weapons";
-            this.iconButton2.UseVisualStyleBackColor = true;
-            this.iconButton2.Click += new System.EventHandler(this.iconButton2_Click);
+            this.weaponsButton2.FlatAppearance.BorderSize = 0;
+            this.weaponsButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.weaponsButton2.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.weaponsButton2.IconChar = FontAwesome.Sharp.IconChar.Gun;
+            this.weaponsButton2.IconColor = System.Drawing.Color.DeepSkyBlue;
+            this.weaponsButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.weaponsButton2.IconSize = 32;
+            this.weaponsButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.weaponsButton2.Location = new System.Drawing.Point(3, 99);
+            this.weaponsButton2.Name = "weaponsButton2";
+            this.weaponsButton2.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.weaponsButton2.Size = new System.Drawing.Size(180, 45);
+            this.weaponsButton2.TabIndex = 2;
+            this.weaponsButton2.Text = "Weapons";
+            this.weaponsButton2.UseVisualStyleBackColor = true;
+            this.weaponsButton2.Click += new System.EventHandler(this.weaponsButton2_Click);
             // 
             // Aimbot
             // 
@@ -464,37 +487,12 @@
             this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             this.panel2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseUp);
             // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.flowLayoutPanel1);
-            this.panel5.Location = new System.Drawing.Point(184, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(10, 703);
-            this.panel5.TabIndex = 8;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.LimeGreen;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 47);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(10, 652);
-            this.flowLayoutPanel1.TabIndex = 8;
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.BackColor = System.Drawing.Color.LimeGreen;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(186, 47);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(834, 4);
-            this.flowLayoutPanel2.TabIndex = 9;
-            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.ClientSize = new System.Drawing.Size(1020, 702);
-            this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
@@ -504,8 +502,8 @@
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -518,20 +516,20 @@
         private FontAwesome.Sharp.IconButton iconButton1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private FontAwesome.Sharp.IconButton iconButton12;
-        private FontAwesome.Sharp.IconButton iconButton11;
-        private FontAwesome.Sharp.IconButton iconButton10;
-        private FontAwesome.Sharp.IconButton iconButton9;
-        private FontAwesome.Sharp.IconButton iconButton8;
+        private FontAwesome.Sharp.IconButton worldButton12;
+        private FontAwesome.Sharp.IconButton configButton11;
+        private FontAwesome.Sharp.IconButton customButton10;
+        private FontAwesome.Sharp.IconButton exploitButton9;
+        private FontAwesome.Sharp.IconButton skinButton8;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private FontAwesome.Sharp.IconButton iconButton7;
-        private FontAwesome.Sharp.IconButton iconButton6;
-        private FontAwesome.Sharp.IconButton iconButton5;
+        private FontAwesome.Sharp.IconButton mobsButton7;
+        private FontAwesome.Sharp.IconButton shipsButton6;
+        private FontAwesome.Sharp.IconButton PlayersButton5;
         private System.Windows.Forms.Label Visuals;
-        private FontAwesome.Sharp.IconButton iconButton4;
-        private FontAwesome.Sharp.IconButton iconButton3;
-        private FontAwesome.Sharp.IconButton iconButton2;
+        private FontAwesome.Sharp.IconButton harpoonButton4;
+        private FontAwesome.Sharp.IconButton canonButton3;
+        private FontAwesome.Sharp.IconButton weaponsButton2;
         private System.Windows.Forms.Label Aimbot;
         private System.Windows.Forms.Panel panel4;
         private FontAwesome.Sharp.IconButton CloseButton;
@@ -540,7 +538,6 @@
         private FontAwesome.Sharp.IconButton iconButton13;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
     }
 }
 
