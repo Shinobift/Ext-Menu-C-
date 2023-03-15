@@ -35,7 +35,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(15)))), ((int)(((byte)(38)))));
-            this.ClientSize = new System.Drawing.Size(816, 607);
+            this.ClientSize = new System.Drawing.Size(832, 646);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Harpoon";
             this.Text = "Form1";
